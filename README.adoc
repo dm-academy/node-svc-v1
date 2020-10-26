@@ -1,6 +1,6 @@
 = node-svc, a microservice learning example
 
-Written for SEIS664, IT Delivery, at the University of St. Thomas (St. Paul, MN). 
+Written for SEIS664, IT Delivery, at the University of St. Thomas (St. Paul, MN). x
 
 A simple Node microservice showing use of node-fetch and express with async logic. Calls itself recursively, effectively implementing an Aggregator pattern (or anti-pattern, if you prefer). Right now the recursion is depth-only, a fanout approach is in the works and ultimately hope to have a randomizable combination of breadth and depth traversal (emulating a mesh of arbitrary complexity). 
 
