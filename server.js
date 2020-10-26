@@ -13,6 +13,7 @@ const arrNodes = [ process.env.NODE_SVC_PUBLIC_SERVICE_HOST  ];       //  use th
 
 console.log("service host is " + arrNodes[0]);
 
+
 const express = require('express');
 const fetch = require('node-fetch');
 const bodyParser = require('body-parser')
